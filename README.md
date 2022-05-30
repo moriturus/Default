@@ -1,6 +1,7 @@
 # Default
 
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![codecov](https://codecov.io/gh/moriturus/Default/branch/main/graph/badge.svg?token=5MAVW82D5I)](https://codecov.io/gh/moriturus/Default)
 
 `Default` is a simple protocol and implementations to provide the default value.
 
