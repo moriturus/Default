@@ -32,6 +32,7 @@ public protocol Default {
     ///     - This means it is the [UNIX Epoch Time](https://en.wikipedia.org/wiki/Unix_time)
     /// - `Array` -> `[]`
     /// - `Dictionary` -> `[:]`
+    /// - `Optional` -> `nil`
     static var `default`: Self { get }
 }
 
@@ -156,5 +157,11 @@ extension Array: Default {
 extension Dictionary: Default {
     public static var `default`: Self {
         [:]
+    }
+}
+
+extension Optional {
+    public static var `default`: Self {
+        nil
     }
 }
