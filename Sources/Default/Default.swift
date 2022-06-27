@@ -160,7 +160,7 @@ extension Dictionary: Default {
     }
 }
 
-extension Optional {
+extension Optional: Default {
     public static var `default`: Self {
         nil
     }
