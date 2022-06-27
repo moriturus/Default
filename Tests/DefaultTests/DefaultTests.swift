@@ -92,4 +92,9 @@ final class DefaultTests: XCTestCase {
         let x = Dictionary<String, Int>.default
         XCTAssertEqual(x, [:])
     }
+    
+    func testOptional() {
+        let x = Optional<Int>.default
+        XCTAssertEqual(x, nil)
+    }
 }

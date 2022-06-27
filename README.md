@@ -49,11 +49,12 @@ let foo = Foo.default
 - `Bool` -> `false`
 - `String` -> `""`
 - `Data` -> `Data()`
-- This means it is an empty data.
+    - This means it is an empty data.
 - `Date` -> `Date(timeIntervalSince1970: 0)`
-- This means it is the [UNIX Epoch Time](https://en.wikipedia.org/wiki/Unix_time)
+    - This means it is the [UNIX Epoch Time](https://en.wikipedia.org/wiki/Unix_time)
 - `Array` -> `[]`
 - `Dictionary` -> `[:]`
+- `Optional` -> `nil`
 
 ## License
 
