@@ -59,9 +59,11 @@ final class DefaultTests: XCTestCase {
         self.testNumeric(Double.self)
     }
     
+    #if arch(x86_64) || arch(i386)
     func testFloat80() {
         self.testNumeric(Float80.self)
     }
+    #endif
     
     func testBool() {
         let x = Bool.default
