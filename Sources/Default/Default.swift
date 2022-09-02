@@ -114,11 +114,13 @@ extension Double: Default {
     // no implementation
 }
 
+#if arch(x86_64) || arch(i386)
 // MARK: - Float80 + Default
 
 extension Float80: Default {
     // no implementation
 }
+#endif
 
 // MARK: - Bool + Default
 
